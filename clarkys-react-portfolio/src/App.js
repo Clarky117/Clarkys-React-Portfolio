@@ -9,6 +9,9 @@ function App() {
       path: "/",
       // element: <div>qwerty</div>
       element: <Landing/>
+    },
+    {
+      // menu page will be new route
     }
   ]);
 

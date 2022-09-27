@@ -4,11 +4,11 @@ import './MyServices.css'
 export default function MyServices() {
   return (
     // <!-- my services -->
-    <section class="my-services" id="services">
-        <h2 class="section__title section__title--services">What I do</h2>
-        <div class="services">
+    <section className="my-services" id="services">
+        <h2 className="section__title section__title--services">What I do</h2>
+        <div className="services">
 
-            <div class="service">
+            <div className="service">
                 <h3>JavaScript</h3>
                 <p>This is my preferred language along with its many libraries.
                     Comfortable manipulating the DOM on the front end right through to 
@@ -16,7 +16,7 @@ export default function MyServices() {
                 </p>
             </div>
 
-            <div class="service">
+            <div className="service">
                 <h3>Node</h3>
                 <p>Have acquired plenty of practise setting up full stack and back end applications
                      by using Node and Express. In doing so have become familiar with reading 
@@ -24,7 +24,7 @@ export default function MyServices() {
                 </p>
             </div>
 
-            <div class="service">
+            <div className="service">
                 <h3>Databases</h3>
                 <p>Enjoy playing with data in either a structured or non structured environmemt. 
                     Have used libraries such as MySQL2 and Mongoose to create models and perform 
@@ -35,7 +35,7 @@ export default function MyServices() {
         </div> 
         {/* <!-- /services--> */}
 
-        <a href="#work" class="btn">My Work</a>
+        <a href="#work" className="btn">My Work</a>
 
     </section>
   )
