@@ -1,0 +1,79 @@
+.my-work {
+    background-color: var(--clr-dark);
+    color: var(--clr-light);
+    text-align: center;
+}
+
+.portfolio {
+    display: grid;
+    /* repeat(x, 1fr) where x = number of columns, as add more
+       of my work extend to 3 or 4 columns, or autofit with minmax(300px, 1 fr) */
+    /* grid-template-columns: repeat(3, 1fr); */
+    /* grid-template-columns: autofit(minmax(300px, 1 fr)); */
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    padding: 0 4em;
+}
+
+@media (min-width: 1400px) {
+    .portfolio {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.portfolio__item {
+    background: var(--clr-accent);
+    overflow: hidden;
+}
+
+.portfolio__img {
+    transition: 
+        transform 750ms cubic-bezier(0.5, 0, 0.5, 1),
+        opacity 250ms linear;
+}
+
+@media (max-width: 550px) {
+    .portfolio__item {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 490px) {
+    .portfolio__item {
+        max-width: 250px;
+    }
+}
+
+@media (max-width: 440px) {
+    .portfolio__item {
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 390px) {
+    .portfolio__item {
+        max-width: 150px;
+    }
+}
+
+@media (max-width: 340px) {
+    .portfolio__item {
+        max-width: 130px;
+    }
+}
+
+@media (max-width: 320px) {
+    .portfolio__item {
+        max-width: 110px;
+    }
+}
+
+.portfolio__item:focus {
+    position: relative;
+    z-index: 2;
+}
+
+.portfolio__img:hover,
+.portfolio__item:focus .portfolio__img {
+    transform: scale(1.2);
+    opacity: 0.75;
+}

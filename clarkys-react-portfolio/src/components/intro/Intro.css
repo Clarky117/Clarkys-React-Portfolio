@@ -40,4 +40,8 @@
         left: -1.5em;
         width: calc(100% + 1.5em);
     }
+
+    .section__subtitle--intro strong {
+        display: block;
+    }
 }

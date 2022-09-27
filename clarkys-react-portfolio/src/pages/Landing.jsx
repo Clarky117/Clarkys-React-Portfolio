@@ -1,8 +1,10 @@
 import React from 'react'
 import AboutMe from '../components/about-me/AboutMe'
 import Footer from '../components/footer/Footer'
+import Header from '../components/header/Header'
 import Intro from '../components/intro/Intro'
 import MyServices from '../components/my-services/MyServices'
+import MyWork from '../components/my-work/MyWork'
 
 export default function Landing() {
 
@@ -18,6 +20,7 @@ export default function Landing() {
     // done
 
     // my work
+    // done
 
     // footer
     // done
@@ -33,10 +36,12 @@ export default function Landing() {
 
     <div>
 
+        {/* play with nav bar/menu */}
+        <Header></Header>
         <Intro></Intro>
         <MyServices></MyServices>
         <AboutMe></AboutMe>
-        {/* my work here */}
+        <MyWork></MyWork>
         <Footer></Footer>
 
     </div>
