@@ -13,11 +13,11 @@ function App() {
   ]);
 
   return (
-    <div>
+    <main>
 
       <RouterProvider router={router}/>
 
-    </div>
+    </main>
   );
 }
 

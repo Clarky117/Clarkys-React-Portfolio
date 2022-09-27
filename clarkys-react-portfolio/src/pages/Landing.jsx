@@ -1,14 +1,16 @@
 import React from 'react'
 import Intro from '../components/intro/Intro'
+import MyServices from '../components/my-services/MyServices'
 
 export default function Landing() {
 
     // nav bar, do last as will require different manipulation
 
     // intro section
-
+    // done
 
     // my services
+    // done
 
     // about me
 
@@ -25,7 +27,12 @@ export default function Landing() {
 
     // <BaseLayout>
 
-    <Intro></Intro>
+    <div>
+
+        <Intro></Intro>
+        <MyServices></MyServices>
+
+    </div>
 
 
     // </BaseLayout>
