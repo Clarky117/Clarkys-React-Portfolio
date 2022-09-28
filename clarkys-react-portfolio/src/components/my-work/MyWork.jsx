@@ -9,6 +9,7 @@ import entPic from './images/5-ent-890.png'
 import ecbePic from './images/6-ecbe-890.png'
 import jatePic from './images/7-jate-890.png'
 import snPic from './images/8-sn-890.png'
+import { Link } from 'react-router-dom'
 
 export default function MyWork() {
   return (
@@ -19,9 +20,11 @@ export default function MyWork() {
 
         <div className="portfolio">
 
-            <a href="https://clarkys-jate.herokuapp.com/" className="portfolio__item">
+            {/* <a href="https://clarkys-jate.herokuapp.com/" className="portfolio__item"> */}
+            <Link to='/jate' className='portfolio__item'>
                 <img src={jatePic} alt="portfolio__image" className="portfolio__img"/>
-            </a>
+            </Link>
+            {/* </a> */}
 
             <a href="https://github.com/Clarky117/Social-Network" className="portfolio__item">
                 <img src={snPic} alt="portfolio__image" className="portfolio__img"/>

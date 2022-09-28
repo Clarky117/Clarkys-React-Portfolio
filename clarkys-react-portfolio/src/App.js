@@ -1,7 +1,7 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
 import Landing from './pages/landing/Landing';
-import PortfolioItem from './pages/portfolio-item/PortfolioItem';
+import PortfolioItemJate from './pages/portfolio-items/PortfolioItemJate';
 
 function App() {
 
@@ -12,12 +12,8 @@ function App() {
       element: <Landing/>
     },
     {
-      // menu page will be new route
-      // no it won't cos i got the js functionality working
-    },
-    {
-      path: "/portfolio-item",
-      element: <PortfolioItem/>
+      path: "/jate",
+      element: <PortfolioItemJate/>
       // i think each item will be its own page
     }
   ]);
