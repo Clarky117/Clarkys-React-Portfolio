@@ -9,9 +9,9 @@ export default function JsCodingQuiz() {
 
             <section className="intro">
                 <h1 className="section__title section__title--intro">
-                    JavaScript Coding Quiz
+                    JS Coding Quiz
                 </h1>
-                <p className="section__subtitle section__subtitle--intro">Front end quiz application using JS</p>
+                <p className="section__subtitle section__subtitle--intro">Front end quiz</p>
                 <img src={jsccPic} alt="portfolio-item-pic" className="intro__img" />
             </section>
 
@@ -22,9 +22,18 @@ export default function JsCodingQuiz() {
                 {/* background pic */}
                 <img src={itemBgPic} alt="geometric-background" className='portfolio-item-pic' />
                 {/* link to repo */}
-                <p>A link to the github repository</p>
-                {/* link to deployed app or youtube video */}
-                <p>a link to the deployed app or youtube video</p>
+
+                <div className='portfolio-item-display'>
+
+                    <p className='portfolio-item-links'>
+                        <a href="https://github.com/Clarky117/JS-Coding-Quiz">Github <i className="fa-brands fa-github"></i></a>
+                    </p>
+                    {/* link to deployed app or youtube video */}
+                    <p className='portfolio-item-links'>
+                        <a href="https://clarky117.github.io/JS-Coding-Quiz/">Quiz <i className="fa-solid fa-question"></i></a>
+                    </p>
+
+                </div>
 
             </section>
 

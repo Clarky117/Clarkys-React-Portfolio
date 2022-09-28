@@ -21,9 +21,18 @@ export default function EmployeeTracker() {
                 {/* background pic */}
                 <img src={itemBgPic} alt="geometric-background" className='portfolio-item-pic' />
                 {/* link to repo */}
-                <p>A link to the github repository</p>
-                {/* link to deployed app or youtube video */}
-                <p>a link to the deployed app or youtube video</p>
+
+                <div className='portfolio-item-display'>
+
+                    <p className='portfolio-item-links'>
+                        <a href="https://github.com/Clarky117/Employee-Tracker">Github <i className="fa-brands fa-github"></i></a>
+                    </p>
+                    {/* link to deployed app or youtube video */}
+                    <p className='portfolio-item-links'>
+                        <a href="https://www.youtube.com/watch?v=U5KXLzqG16o">Youtube <i className="fa-brands fa-youtube"></i></a>
+                    </p>
+
+                </div>
 
             </section>
 
