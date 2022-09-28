@@ -1,13 +1,17 @@
 import React from 'react'
-import BaseLayout from '../../layouts/BaseLayout'
-
 
 export default function PortfolioItem() {
   return (
     <div>
-        <BaseLayout>
+
+      {/* new menu */}
+
+      {/* new intro, replace profile pic with portfolio item pic */}
+
+      {/* portfolio item section, paragraph pic paragraph paragraph */}
+
+      {/* footer - same */}
         
-        </BaseLayout>
     </div>
   )
 }

@@ -10,8 +10,6 @@ export default function intro() {
             Hey, I am <strong>Dan Clark</strong>
         </h1>
         <p className="section__subtitle section__subtitle--intro">Full Stack Developer</p>
-        {/* <!-- find image --> */}
-        {/* <!-- image dimensions are 313 x 313 --> */}
         <img src={profilePic} alt="profile pic" className="intro__img"/>
     </section>
   )

@@ -9,7 +9,6 @@
     /* repeat(x, 1fr) where x = number of columns, as add more
        of my work extend to 3 or 4 columns, or autofit with minmax(300px, 1 fr) */
     /* grid-template-columns: repeat(3, 1fr); */
-    /* grid-template-columns: autofit(minmax(300px, 1 fr)); */
     grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
     padding: 0 4em;
 }

@@ -1,6 +1,5 @@
 .my-services {
     background-color: var(--clr-dark);
-    /* configure this image */
     background-image: url(./cyber-bg.jpg);
     background-size: cover;
     background-blend-mode: soft-light;
