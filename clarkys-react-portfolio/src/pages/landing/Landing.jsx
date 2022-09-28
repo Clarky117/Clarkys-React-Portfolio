@@ -8,22 +8,22 @@ import MyWork from '../../components/my-work/MyWork'
 
 export default function Landing() {
 
-    // nav bar, do last as will require different manipulation
+  // nav bar, do last as will require different manipulation
 
-    // intro section
-    // done
+  // intro section
+  // done
 
-    // my services
-    // done
+  // my services
+  // done
 
-    // about me
-    // done
+  // about me
+  // done
 
-    // my work
-    // done
+  // my work
+  // done
 
-    // footer
-    // done
+  // footer
+  // done
 
   return (
 
@@ -33,16 +33,16 @@ export default function Landing() {
 
     <div>
 
-        <Header></Header>
-        <Intro></Intro>
-        <MyServices></MyServices>
-        <AboutMe></AboutMe>
-        <MyWork></MyWork>        
-        <Footer></Footer>
+      <Header></Header>
+      <Intro></Intro>
+      <MyServices></MyServices>
+      <AboutMe></AboutMe>
+      <MyWork></MyWork>
+      <Footer></Footer>
 
     </div>
 
     // </BaseLayout>
-    
+
   )
 }

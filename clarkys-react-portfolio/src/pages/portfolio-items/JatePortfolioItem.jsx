@@ -3,7 +3,7 @@ import Footer from '../../components/footer/Footer'
 import HeaderPortfolioItem from '../../components/header-portfolio-item/HeaderPortfolioItem'
 import Jate from '../../components/portfolio-items/Jate'
 
-export default function PortfolioItemJate() {
+export default function JatePortfolioItem() {
   return (
     <div>
 
@@ -15,7 +15,6 @@ export default function PortfolioItemJate() {
       {/* footer - same */}
       <Footer></Footer>
 
-        
     </div>
   )
 }

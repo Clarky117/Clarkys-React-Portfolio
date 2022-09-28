@@ -1,7 +1,14 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
 import Landing from './pages/landing/Landing';
-import PortfolioItemJate from './pages/portfolio-items/PortfolioItemJate';
+import EcbePortfolioItem from './pages/portfolio-items/EcbePortfolioItem';
+import EntPortfolioItem from './pages/portfolio-items/EntPortfolioItem';
+import EtPortfolioItem from './pages/portfolio-items/EtPortfolioItem';
+import JatePortfolioItem from './pages/portfolio-items/JatePortfolioItem';
+import JsccPortfolioItem from './pages/portfolio-items/JsccPortfolioItem';
+import SnPortfolioItem from './pages/portfolio-items/SnPortfolioItem';
+import TpgPortfolioItem from './pages/portfolio-items/TpgPortfolioItem';
+import WotPortfolioItem from './pages/portfolio-items/WotPortfolioItem';
 
 function App() {
 
@@ -13,8 +20,36 @@ function App() {
     },
     {
       path: "/jate",
-      element: <PortfolioItemJate/>
+      element: <JatePortfolioItem/>
       // i think each item will be its own page
+    },
+    {
+      path: "/social-network",
+      element: <SnPortfolioItem/>
+    },
+    {
+      path: "/workout-tracker",
+      element: <WotPortfolioItem/>
+    },
+    {
+      path: "/team-profile-generator",
+      element: <TpgPortfolioItem/>
+    },
+    {
+      path: "/js-coding-quiz",
+      element: <JsccPortfolioItem/>
+    },
+    {
+      path: "/employee-tracker",
+      element: <EtPortfolioItem/>
+    },
+    {
+      path: "/express-note-taker",
+      element: <EntPortfolioItem/>
+    },
+    {
+      path: "/e-commerce-back-end",
+      element: <EcbePortfolioItem/>
     }
   ]);
 

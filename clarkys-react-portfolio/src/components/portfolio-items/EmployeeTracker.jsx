@@ -1,19 +1,17 @@
 import React from 'react'
-import jatePic from '../my-work/images/7-jate-890.png'
+import etPic from '../my-work/images/4-et-890.png'
 import itemBgPic from './geometric-portfolio-item.jpg'
-import './PortfolioItem.css'
 
-export default function Jate() {
+export default function EmployeeTracker() {
     return (
         <div>
 
-            {/* altered intro with portfolio item pic */}
             <section className="intro">
                 <h1 className="section__title section__title--intro">
-                    Just Another Text Editor
+                    Employee Tracker
                 </h1>
-                <p className="section__subtitle section__subtitle--intro">Progressive Web App</p>
-                <img src={jatePic} alt="portfolio-item-pic" className="intro__img" />
+                <p className="section__subtitle section__subtitle--intro">MySQL database using Sequelize</p>
+                <img src={etPic} alt="portfolio-item-pic" className="intro__img" />
             </section>
 
             {/* paragraph about work */}
