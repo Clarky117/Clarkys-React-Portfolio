@@ -1,4 +1,3 @@
-import React from 'react'
 import jatePic from '../my-work/images/7-jate-890.png'
 import itemBgPic from './geometric-portfolio-item.jpg'
 import './PortfolioItem.css'

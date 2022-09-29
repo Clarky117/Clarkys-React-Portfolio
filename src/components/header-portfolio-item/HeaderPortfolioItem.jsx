@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import clarkyLogo from '../header/clarky-logo.png'
 
@@ -11,6 +11,11 @@ export default function HeaderPortfolioItem() {
     const navLinksAfterClick = () => {
         document.body.classList.remove('nav-open');
     }
+
+    // any time this header is called it will scroll to top
+    useEffect(()=>  {
+        window.scrollTo(0,0);
+      },[]);
 
     return (
         <header>

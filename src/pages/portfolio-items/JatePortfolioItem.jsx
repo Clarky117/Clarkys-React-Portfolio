@@ -6,7 +6,6 @@ import Jate from '../../components/portfolio-items/Jate'
 export default function JatePortfolioItem() {
   return (
     <div>
-
       {/* new menu */}
       <HeaderPortfolioItem></HeaderPortfolioItem>
       {/* new intro, replace profile pic with portfolio item pic - incorporated into portfolio item */}

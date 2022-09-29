@@ -13,52 +13,57 @@ import WotPortfolioItem from './pages/portfolio-items/WotPortfolioItem';
 function App() {
 
   const router = createBrowserRouter([
+
     {
       path: "/",
       // element: <div>qwerty</div>
-      element: <Landing/>
+      element: <Landing />
     },
     {
       path: "/jate",
-      element: <JatePortfolioItem/>
+      element: <JatePortfolioItem />
       // i think each item will be its own page
     },
     {
       path: "/social-network",
-      element: <SnPortfolioItem/>
+      element: <SnPortfolioItem />
     },
     {
       path: "/workout-tracker",
-      element: <WotPortfolioItem/>
+      element: <WotPortfolioItem />
     },
     {
       path: "/team-profile-generator",
-      element: <TpgPortfolioItem/>
+      element: <TpgPortfolioItem />
     },
     {
       path: "/js-coding-quiz",
-      element: <JsccPortfolioItem/>
+      element: <JsccPortfolioItem />
     },
     {
       path: "/employee-tracker",
-      element: <EtPortfolioItem/>
+      element: <EtPortfolioItem />
     },
     {
       path: "/express-note-taker",
-      element: <EntPortfolioItem/>
+      element: <EntPortfolioItem />
     },
     {
       path: "/e-commerce-back-end",
-      element: <EcbePortfolioItem/>
+      element: <EcbePortfolioItem />
     }
   ]);
 
   return (
     <main>
 
-      <RouterProvider router={router}/>
+
+
+      <RouterProvider router={router} />
+
 
     </main>
+
   );
 }
 
