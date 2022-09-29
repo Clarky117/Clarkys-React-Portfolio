@@ -1,5 +1,6 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
+import ContactMe from './pages/contact-me/ContactMe';
 import Landing from './pages/landing/Landing';
 import EcbePortfolioItem from './pages/portfolio-items/EcbePortfolioItem';
 import EntPortfolioItem from './pages/portfolio-items/EntPortfolioItem';
@@ -51,6 +52,10 @@ function App() {
     {
       path: "/e-commerce-back-end",
       element: <EcbePortfolioItem />
+    },
+    {
+      path: "/contact-me",
+      element: <ContactMe/>
     }
   ]);
 

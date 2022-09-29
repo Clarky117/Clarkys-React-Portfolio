@@ -43,3 +43,8 @@
         margin-left: 2em;
     }
 }
+
+.btn + .btn {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
