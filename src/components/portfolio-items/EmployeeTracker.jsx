@@ -17,7 +17,11 @@ export default function EmployeeTracker() {
             {/* paragraph about work */}
             <section className='portfolio-item-individual'>
 
-                <p>A short paragraph about the item</p>
+                <p className='portfolio-item-summary'>As a business owner who isn't a developer, it is very important
+                    to be able to view and manage the departments, roles, and employees within the company so planning and
+                    organisation within the business becomes an easier part of the role.</p>
+                <p className='portfolio-item-summary'>In this command line application using Node and the Inquirer package,
+                    we interact with the user and can perform CRUD operations on the employees, roles, and departments.</p>
                 {/* background pic */}
                 <img src={itemBgPic} alt="geometric-background" className='portfolio-item-pic' />
                 {/* link to repo */}

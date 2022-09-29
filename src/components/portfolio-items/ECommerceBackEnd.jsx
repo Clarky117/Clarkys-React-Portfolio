@@ -17,7 +17,13 @@ export default function ECommerceBackEnd() {
             {/* paragraph about work */}
             <section className='portfolio-item-individual'>
 
-                <p>A short paragraph about the item</p>
+                <p className='portfolio-item-summary'>E-Commerce in 2019 alone is estimated to be worth around $29 trillion,
+                    and with sites such as Shopify and WooCommerce provide businesses of
+                    all sizes with a suite of services.</p>
+                <p className='portfolio-item-summary'>As a full stack developer it is beneficial to understand the fundamental
+                    architecture of these platforms.</p>
+                <p className='portfolio-item-summary'>Using Sequelize I have created the models and written routes to be tested
+                    in Insomnia.</p>
                 {/* background pic */}
                 <img src={itemBgPic} alt="geometric-background" className='portfolio-item-pic' />
                 {/* link to repo */}

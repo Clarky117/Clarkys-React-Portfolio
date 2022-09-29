@@ -17,7 +17,11 @@ export default function SocialNetwork() {
             {/* paragraph about work */}
             <section className='portfolio-item-individual'>
 
-                <p>A short paragraph about the item</p>
+                <p className='portfolio-item-summary'>MongoDB is is a popular choice for many social networks due
+                    to being able to deal with large amounts of data and its flexibility storing it in an unstructured
+                    environment. This sets the foundation to build a full stack application in future.</p>
+                <p className='portfolio-item-summary'>In this particular api users can share their thoughts,
+                    react to friends thoughts, and create a friends list.</p>
                 {/* background pic */}
                 <img src={itemBgPic} alt="geometric-background" className='portfolio-item-pic' />
                 {/* link to repo */}

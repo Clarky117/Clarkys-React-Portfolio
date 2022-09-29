@@ -18,7 +18,10 @@ export default function Jate() {
             {/* paragraph about work */}
             <section className='portfolio-item-individual'>
 
-                <p>A short paragraph about the item</p>
+                <p className='portfolio-item-summary'>This text editor known as Jate, runs in the browser,
+                    and is a single-page application that meets PWA criteria. Jate features a number of data persistence
+                    techniques that serve as redundancy in case an option is not supported in the browser, also has
+                    functionality offline.</p>
                 {/* background pic */}
                 <img src={itemBgPic} alt="geometric-background" className='portfolio-item-pic' />
                 {/* link to repo */}

@@ -17,7 +17,10 @@ export default function ExpressNoteTaker() {
             {/* paragraph about work */}
             <section className='portfolio-item-individual'>
 
-                <p>A short paragraph about the item</p>
+                <p className='portfolio-item-summary'>When working as part of a team on a small application such as this,
+                    it is more than likely you will not be writing the entire code yourself, but be a cog in the team. In this
+                    circumstance we take on the role of the back end developer to connect to supplied application from the front
+                    end devs to an express server for deployment.</p>
                 {/* background pic */}
                 <img src={itemBgPic} alt="geometric-background" className='portfolio-item-pic' />
                 {/* link to repo */}

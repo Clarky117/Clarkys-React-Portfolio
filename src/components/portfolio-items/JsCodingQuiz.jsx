@@ -18,7 +18,17 @@ export default function JsCodingQuiz() {
             {/* paragraph about work */}
             <section className='portfolio-item-individual'>
 
-                <p>A short paragraph about the item</p>
+                <p className='portfolio-item-summary'>When the user clicks the start button we dynamically
+                    update the DOM using Javascript, a count down timer then starts in the upper right hand corner
+                    of the screen, and the user is presented with the first of a series of questions which are displayed
+                    one at a time, only updating once the question has been answered.</p>
+                <p className='portfolio-item-summary'>If the users timer reaches 0 presenting no time left, the quiz
+                    is ended. When the user answers all questions or the timer reaches 0, the user is presented with a
+                    new screen, showing them their score and asking for initials to be submitted to the high score page.
+                    Using local storage on the users device via Javascript, they are presented with a high score page unique
+                    to their device. The user then has the ability to either wipe the high scores from local storage,
+                    or return to the main menu via the 2 buttons displayed on that page.</p>
+
                 {/* background pic */}
                 <img src={itemBgPic} alt="geometric-background" className='portfolio-item-pic' />
                 {/* link to repo */}

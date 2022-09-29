@@ -17,7 +17,23 @@ export default function WorkoutTracker() {
             {/* paragraph about work */}
             <section className='portfolio-item-individual'>
 
-                <p>A short paragraph about the item</p>
+                <p className='portfolio-item-summary'>Created by
+                    <a href="https://github.com/Flipper5001"> Filipe</a>,
+                    <a href="https://github.com/aliceveenathomas"> Alice </a>
+                    and I.</p>
+                <p className='portfolio-item-summary'>Projects play a key role in our journey to
+                    become full stack developers, as a full stack developer it is imperitive to be
+                    able to work collaboratively with other developers. With this body of work we
+                    aim to showcase how we can seemlessly come together as a whole and work towards
+                    a common goal.</p>
+                <p className='portfolio-item-summary'>As a group, we initially brainstormed ideas, wire framed
+                    via Figma. Used the job board provided by Github to assign tasks, and identified what dev
+                    dependancies and packages were required.</p>
+                <p className='portfolio-item-summary'>Following the MVC architecture we split 3 ways, Filipe started
+                    on Models, Alice on Controllers, and myself on View, using Handlebars.</p>
+                <p className='portfolio-item-summary'>During the course of production we were able to find time to catch
+                    up over zoom every day to stay informed and updated on progress, and allowed us to employ agile
+                    methodology in development.</p>
                 {/* background pic */}
                 <img src={itemBgPic} alt="geometric-background" className='portfolio-item-pic' />
                 {/* link to repo */}

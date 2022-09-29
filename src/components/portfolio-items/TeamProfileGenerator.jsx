@@ -21,18 +21,23 @@ export default function TeamProfileGenerator() {
             {/* paragraph about work */}
             <section className='portfolio-item-individual'>
 
-                <p>A short paragraph about the item</p>
+                <p className='portfolio-item-summary'>When working as part of a team, especially in an
+                    environment dominated by computers it is important to be able to automate simple tasks.
+                    Doing so allows for better time management capabilities. In this case, forming a new team
+                    and quickly being able to take in employee information, and generate a usable html
+                    document accessable to entire team allows all involved to hit the ground running with
+                    included github profile and email address.</p>
                 {/* background pic */}
                 <img src={itemBgPic} alt="geometric-background" className='portfolio-item-pic' />
                 {/* link to repo */}
 
                 <div className='portfolio-item-display'>
-                <p className='portfolio-item-links'>
-                    <a href="https://github.com/Clarky117/Team-Profile-Generator">Github <i className="fa-brands fa-github"></i></a>
+                    <p className='portfolio-item-links'>
+                        <a href="https://github.com/Clarky117/Team-Profile-Generator">Github <i className="fa-brands fa-github"></i></a>
                     </p>
-                {/* link to deployed app or youtube video */}
-                <p className='portfolio-item-links'>
-                    <a href="https://www.youtube.com/watch?v=3YZ2iaGAK9I">Youtube <i className="fa-brands fa-youtube"></i></a>
+                    {/* link to deployed app or youtube video */}
+                    <p className='portfolio-item-links'>
+                        <a href="https://www.youtube.com/watch?v=3YZ2iaGAK9I">Youtube <i className="fa-brands fa-youtube"></i></a>
                     </p>
                 </div>
             </section>

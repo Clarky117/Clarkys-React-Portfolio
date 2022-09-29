@@ -14,6 +14,7 @@
     background-color: var(--clr-dark);
     /* background-blend-mode: darken; */
     filter: brightness(70%) contrast(1.1);
+    margin-top: 5rem;
 }
 
 .portfolio-item-links {
@@ -38,4 +39,16 @@
     .portfolio-item-display {
         flex-direction: column;
     }
+}
+
+.portfolio-item-summary {
+    font-size: var(--fs-h3);
+}
+
+.portfolio-item-summary a {
+    text-decoration: none;
+}
+
+.portfolio-item-summary a:hover {
+    color: var(--clr-accent);
 }
