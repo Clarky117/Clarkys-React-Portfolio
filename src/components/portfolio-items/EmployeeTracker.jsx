@@ -29,11 +29,11 @@ export default function EmployeeTracker() {
                 <div className='portfolio-item-display'>
 
                     <p className='portfolio-item-links'>
-                        <a href="https://github.com/Clarky117/Employee-Tracker">Github <i className="fa-brands fa-github"></i></a>
+                        <a href="https://github.com/Clarky117/Employee-Tracker" target="_blank">Github <i className="fa-brands fa-github"></i></a>
                     </p>
                     {/* link to deployed app or youtube video */}
                     <p className='portfolio-item-links'>
-                        <a href="https://www.youtube.com/watch?v=U5KXLzqG16o">Youtube <i className="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.youtube.com/watch?v=U5KXLzqG16o" target="_blank">Youtube <i className="fa-brands fa-youtube"></i></a>
                     </p>
 
                 </div>

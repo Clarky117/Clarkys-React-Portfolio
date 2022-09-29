@@ -41,11 +41,11 @@ export default function WorkoutTracker() {
                 <div className='portfolio-item-display'>
 
                     <p className='portfolio-item-links'>
-                        <a href="https://github.com/Flipper5001/workout_tracker">Github <i className="fa-brands fa-github"></i></a>
+                        <a href="https://github.com/Flipper5001/workout_tracker" target="_blank">Github <i className="fa-brands fa-github"></i></a>
                     </p>
                     {/* link to deployed app or youtube video */}
                     <p className='portfolio-item-links'>
-                        <a href="https://r7-workout-tracker.herokuapp.com/login">Our App <i className="fa-solid fa-dumbbell"></i></a>
+                        <a href="https://r7-workout-tracker.herokuapp.com/login" target="_blank">Our App <i className="fa-solid fa-dumbbell"></i></a>
                     </p>
 
                 </div>

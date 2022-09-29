@@ -33,11 +33,11 @@ export default function TeamProfileGenerator() {
 
                 <div className='portfolio-item-display'>
                     <p className='portfolio-item-links'>
-                        <a href="https://github.com/Clarky117/Team-Profile-Generator">Github <i className="fa-brands fa-github"></i></a>
+                        <a href="https://github.com/Clarky117/Team-Profile-Generator" target="_blank">Github <i className="fa-brands fa-github"></i></a>
                     </p>
                     {/* link to deployed app or youtube video */}
                     <p className='portfolio-item-links'>
-                        <a href="https://www.youtube.com/watch?v=3YZ2iaGAK9I">Youtube <i className="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.youtube.com/watch?v=3YZ2iaGAK9I" target="_blank">Youtube <i className="fa-brands fa-youtube"></i></a>
                     </p>
                 </div>
             </section>

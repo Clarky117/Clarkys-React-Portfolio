@@ -29,11 +29,11 @@ export default function SocialNetwork() {
                 <div className='portfolio-item-display'>
 
                     <p className='portfolio-item-links'>
-                        <a href="https://github.com/Clarky117/Social-Network">Github <i className="fa-brands fa-github"></i></a>
+                        <a href="https://github.com/Clarky117/Social-Network" target="_blank">Github <i className="fa-brands fa-github"></i></a>
                     </p>
                     {/* link to deployed app or youtube video */}
                     <p className='portfolio-item-links'>
-                        <a href="https://www.youtube.com/watch?v=tSVVmA1S6N8">Youtube <i className="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.youtube.com/watch?v=tSVVmA1S6N8" target="_blank">Youtube <i className="fa-brands fa-youtube"></i></a>
                     </p>
 
                 </div>

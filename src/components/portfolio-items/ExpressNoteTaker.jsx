@@ -28,11 +28,11 @@ export default function ExpressNoteTaker() {
                 <div className='portfolio-item-display'>
 
                     <p className='portfolio-item-links'>
-                        <a href="https://github.com/Clarky117/Express-Note-Taker">Github <i className="fa-brands fa-github"></i></a>
+                        <a href="https://github.com/Clarky117/Express-Note-Taker" target="_blank">Github <i className="fa-brands fa-github"></i></a>
                     </p>
                     {/* link to deployed app or youtube video */}
                     <p className='portfolio-item-links'>
-                        <a href="https://clarkys-express-note-taker.herokuapp.com/">Note Taker <i className="fa-solid fa-pen-to-square"></i></a>
+                        <a href="https://clarkys-express-note-taker.herokuapp.com/" target="_blank">Note Taker <i className="fa-solid fa-pen-to-square"></i></a>
                     </p>
 
                 </div>

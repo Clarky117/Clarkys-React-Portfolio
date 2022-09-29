@@ -31,11 +31,11 @@ export default function ECommerceBackEnd() {
                 <div className='portfolio-item-display'>
 
                     <p className='portfolio-item-links'>
-                        <a href="https://github.com/Clarky117/E-Commerce-Back-End">Github <i className="fa-brands fa-github"></i></a>
+                        <a href="https://github.com/Clarky117/E-Commerce-Back-End" target="_blank">Github <i className="fa-brands fa-github"></i></a>
                     </p>
                     {/* link to deployed app or youtube video */}
                     <p className='portfolio-item-links'>
-                        <a href="https://www.youtube.com/watch?v=FhVX_gJWQi0">Youtube <i className="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.youtube.com/watch?v=FhVX_gJWQi0" target="_blank">Youtube <i className="fa-brands fa-youtube"></i></a>
                     </p>
 
                 </div>

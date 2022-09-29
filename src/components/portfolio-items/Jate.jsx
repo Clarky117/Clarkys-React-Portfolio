@@ -28,11 +28,11 @@ export default function Jate() {
 
                 <div className='portfolio-item-display'>
                     <p className='portfolio-item-links'>
-                        <a href="https://github.com/Clarky117/JATE-PWA-Text-Editor">Github <i className="fa-brands fa-github"></i></a>
+                        <a href="https://github.com/Clarky117/JATE-PWA-Text-Editor" target="_blank">Github <i className="fa-brands fa-github"></i></a>
                     </p>
                     {/* link to deployed app or youtube video */}
                     <p className='portfolio-item-links'>
-                        <a href="https://clarkys-jate.herokuapp.com/">Jate App <i className="fa-solid fa-globe"></i></a>
+                        <a href="https://clarkys-jate.herokuapp.com/" target="_blank">Jate App <i className="fa-solid fa-globe"></i></a>
                     </p>
                 </div>
 
