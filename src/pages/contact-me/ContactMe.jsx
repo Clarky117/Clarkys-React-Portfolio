@@ -1,6 +1,6 @@
 import React from 'react'
 import HeaderPortfolioItem from '../../components/header-portfolio-item/HeaderPortfolioItem'
-import Footer from '../../components/footer/Footer'
+// import Footer from '../../components/footer/Footer'
 import ContactComponent from '../../components/contact-component/ContactComponent'
 
 export default function ContactMe() {
@@ -9,7 +9,7 @@ export default function ContactMe() {
 
         <HeaderPortfolioItem></HeaderPortfolioItem>
         <ContactComponent></ContactComponent>
-        <Footer></Footer>
+        {/* <Footer></Footer> */}
 
     </div>
   )

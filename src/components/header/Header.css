@@ -36,6 +36,14 @@ header {
     padding: 0;
 }
 
+/* trial nav__item-link */
+.nav__item-link {
+    font-size: var(--fs-h2);
+    text-decoration: none;
+    font-weight: var(--fw-bold);
+    color: var(--clr-light);
+}
+
 .nav__link {
     color: inherit;
     font-weight: var(--fw-bold);
@@ -43,7 +51,8 @@ header {
     text-decoration: none;
 }
 
-.nav__link:hover {
+.nav__link:hover,
+.nav__item-link:hover {
     color: var(--clr-accent);
 }
 

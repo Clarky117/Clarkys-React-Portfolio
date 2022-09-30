@@ -5,6 +5,7 @@
     background-blend-mode: soft-light;
     color: var(--clr-light);
     text-align: center;
+    /* padding-bottom: -1em; */
 }
 
 .section__title--services {
@@ -23,7 +24,7 @@
 }
 
 .services {
-    margin-bottom: 4em;
+    margin-bottom: 3em;
 }
 
 .service {
@@ -47,4 +48,9 @@
 .btn + .btn {
     margin-left: 2rem;
     margin-right: 2rem;
+}
+
+/* trial */
+.my-services .btn {
+    margin-top: 1rem;
 }

@@ -10,8 +10,8 @@ export default function ContactComponent() {
                 <h2>Get In Touch</h2>
                 <input type="text" id="name" placeholder='Your Name' required />
                 <input type="email" id="email" placeholder='Your Email' required />
-                <textarea name="message" id="message" placeholder='Your Message' rows="10"></textarea>
-                <button type='submit'>Send</button>
+                <textarea name="message" id="message" placeholder='Your Message' rows="10" required></textarea>
+                <button className='btn' type='submit'>Send</button>
 
             </form>
 

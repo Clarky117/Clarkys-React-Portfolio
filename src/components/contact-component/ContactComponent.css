@@ -1,4 +1,5 @@
 .contact-container {
+    margin:auto;
     width: 100%;
     height: 90vh;
     /* add background image */
@@ -7,6 +8,9 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    background-image: url(./contact-backdrop.jpg);
+    background-size: cover;
+    background-blend-mode: soft-light;
 }
 
 .contact-form {
@@ -17,6 +21,7 @@
     width: 90%;
     max-width: 600px;
     border-radius: 10px;
+    opacity: 0.9;
 }
 
 .contact-form h2 {
@@ -35,9 +40,6 @@
 
 .contact-form button {
     padding: 15px;
-    background: var(--clr-dark);
-    color: var(--clr-light);
-    font-size: var(--fs-h3);
     border: 0;
     outline: none;
     cursor: pointer;
@@ -45,3 +47,4 @@
     margin: auto;
     border-radius: 6px;    
 }
+

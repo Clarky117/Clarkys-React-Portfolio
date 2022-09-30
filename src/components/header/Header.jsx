@@ -1,6 +1,7 @@
 import React from 'react'
 import './Header.css'
 import clarkyLogo from './clarky-logo.png'
+import { Link } from 'react-router-dom';
 
 export default function Header() {
 
@@ -26,6 +27,7 @@ export default function Header() {
           <li onClick={navLinksAfterClick} className="nav__item"><a href="#services" className="nav__link">My Services</a></li>
           <li onClick={navLinksAfterClick} className="nav__item"><a href="#about" className="nav__link">About Me</a></li>
           <li onClick={navLinksAfterClick} className="nav__item"><a href="#work" className="nav__link">My Work</a></li>
+          <Link to='/contact-me' onClick={navLinksAfterClick} className="nav__item-link">Contact</Link>
         </ul>
       </nav>
     </header>
