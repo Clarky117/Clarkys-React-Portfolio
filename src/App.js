@@ -55,17 +55,14 @@ function App() {
     },
     {
       path: "/contact-me",
-      element: <ContactMe/>
+      element: <ContactMe />
     }
   ]);
 
   return (
     <main>
-
-
-
-      <RouterProvider router={router} />
-
+      
+        <RouterProvider router={router} />    
 
     </main>
 
