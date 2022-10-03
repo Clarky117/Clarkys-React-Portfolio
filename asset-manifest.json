@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Clarkys-React-Portfolio/static/css/main.b90ac22a.css",
+    "main.js": "/Clarkys-React-Portfolio/static/js/main.1133576b.js",
+    "static/media/3-jscc-890.png": "/Clarkys-React-Portfolio/static/media/3-jscc-890.be98af98a3fa6bf13550.png",
+    "static/media/cyber-bg.jpg": "/Clarkys-React-Portfolio/static/media/cyber-bg.a9acdc44a27186f2e00b.jpg",
+    "static/media/1-wot-890.png": "/Clarkys-React-Portfolio/static/media/1-wot-890.f3ffaeb97442b2695ba8.png",
+    "static/media/contact-backdrop.jpg": "/Clarkys-React-Portfolio/static/media/contact-backdrop.d2d3a7c2ccdfb4ae7253.jpg",
+    "static/media/geometric-portfolio-item.jpg": "/Clarkys-React-Portfolio/static/media/geometric-portfolio-item.e32c660914cba5266940.jpg",
+    "static/media/2-tpg-890.png": "/Clarkys-React-Portfolio/static/media/2-tpg-890.962504f2610ef296e1ce.png",
+    "static/media/beach.jpg": "/Clarkys-React-Portfolio/static/media/beach.888137b61d70a5105d59.jpg",
+    "static/media/4-et-890.png": "/Clarkys-React-Portfolio/static/media/4-et-890.0a71e801ed1e879d607c.png",
+    "static/media/profile-pic.jpg": "/Clarkys-React-Portfolio/static/media/profile-pic.c568e51dcd545a9cc955.jpg",
+    "static/media/6-ecbe-890.png": "/Clarkys-React-Portfolio/static/media/6-ecbe-890.403a6ba2d4fe8e3873df.png",
+    "static/media/8-sn-890.png": "/Clarkys-React-Portfolio/static/media/8-sn-890.74b26d2a5ed67bfeb74f.png",
+    "static/media/7-jate-890.png": "/Clarkys-React-Portfolio/static/media/7-jate-890.ea6471a501f75dd66388.png",
+    "index.html": "/Clarkys-React-Portfolio/index.html",
+    "main.b90ac22a.css.map": "/Clarkys-React-Portfolio/static/css/main.b90ac22a.css.map",
+    "main.1133576b.js.map": "/Clarkys-React-Portfolio/static/js/main.1133576b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b90ac22a.css",
+    "static/js/main.1133576b.js"
+  ]
+}
