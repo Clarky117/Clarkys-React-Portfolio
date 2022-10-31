@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 import './MyServices.css'
 
 export default function MyServices() {
@@ -38,10 +38,10 @@ export default function MyServices() {
             {/* <!-- /services--> */}
 
             <a href="#work" className="btn">My Work</a>
-            <a href='clarkys-react-resume.pdf' className="btn" download>
+            {/* <a href='clarkys-react-resume.pdf' className="btn" download>
                 Résumé
-            </a>
-            <Link to='/contact-me' className='btn'>Contact Me</Link>
+            </a> */}
+            {/* <Link to='/contact-me' className='btn'>Contact Me</Link> */}
 
 
         </section>
