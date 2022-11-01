@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import ContactMe from './pages/contact-me/ContactMe';
 import Landing from './pages/landing/Landing';
+import ClffPortfolioItem from './pages/portfolio-items/ClffPortfolioItem';
 import EcbePortfolioItem from './pages/portfolio-items/EcbePortfolioItem';
 import EntPortfolioItem from './pages/portfolio-items/EntPortfolioItem';
 import EtPortfolioItem from './pages/portfolio-items/EtPortfolioItem';
@@ -12,6 +13,7 @@ import JsccPortfolioItem from './pages/portfolio-items/JsccPortfolioItem';
 import SnPortfolioItem from './pages/portfolio-items/SnPortfolioItem';
 import TpgPortfolioItem from './pages/portfolio-items/TpgPortfolioItem';
 import WotPortfolioItem from './pages/portfolio-items/WotPortfolioItem';
+
 
 function App() {
 
@@ -71,6 +73,10 @@ function App() {
           <Route
             exact path='/'
             element={<Landing />}
+          />
+          <Route
+            exact path='/clarkys-local-fish-finder'
+            element={<ClffPortfolioItem />}
           />
           <Route
             exact path='/jate'
