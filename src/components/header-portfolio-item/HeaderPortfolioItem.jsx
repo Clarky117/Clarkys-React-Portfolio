@@ -29,7 +29,7 @@ export default function HeaderPortfolioItem() {
                 <ul className="nav__list">
                     {/* need to sort out navigation bug */}
                     {/* <li onClick={navLinksAfterClick} className="nav__item"><NavLink to="/Clarkys-React-Portfolio#services" className="nav__link">My Services</NavLink></li> */}
-                    <li onClick={navLinksAfterClick} className="nav__item"><Link to="/Clarkys-React-Portfolio" className="nav__link">Home</Link></li>
+                    <li onClick={navLinksAfterClick} className="nav__item"><Link to="/" className="nav__link">Home</Link></li>
                     {/* <li onClick={navLinksAfterClick} className="nav__item"><Link to="/#about" className="nav__link">About Me</Link></li> */}
                     {/* <li onClick={navLinksAfterClick} className="nav__item"><Link to="/#work" className="nav__link">My Work</Link></li> */}
                 </ul>

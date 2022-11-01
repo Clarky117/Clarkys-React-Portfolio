@@ -69,7 +69,7 @@ function App() {
         <Routes>
 
           <Route
-            exact path='/Clarkys-React-Portfolio'
+            exact path='/'
             element={<Landing />}
           />
           <Route
